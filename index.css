@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  max-width: 350px;
+  margin: 200px auto 200px auto;
+  border-radius: 15px;
+  box-shadow: 8px 8px 0px black;
+  position: relative;
+}
+
+.main-content {
+  width: 100%;
+  height: 500px;
+  max-width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  border-top: 1.5px solid hsl(0, 0%, 7%);
+  border-left: 1.5px solid hsl(0, 0%, 7%);
+}
+
+.b-img {
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.content {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.content h1 {
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+.content h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.sub-content {
+  margin-bottom: 50px;
+}
+
+.diff-p {
+  color: hsl(0, 0%, 42%);
+}
+
+.learn {
+  font-weight: 800;
+  border: 1px;
+  border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+  padding-inline: 15px;
+  padding-block: 7px;
+}
+
+.avatar {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.avatar span {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+@media (min-width: 768px) {
+  .main-content,
+  .main {
+    width: 100%;
+    max-width: 350px;
+  }
+}
