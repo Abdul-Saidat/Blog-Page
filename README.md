@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Abdul-Saidat/Blog-Page)
+- Live Site URL: [Live Site](https://blog-card-sigma-silk.vercel.app/)
 
 
 ## My process
@@ -46,5 +46,5 @@ I was able to make use of the css box shadow property to add a shadow to the blo
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Abdul-Saidat](https://www.frontendmentor.io/profile/Abdul-Saidat)
+- Twitter - [@Sahhyddahabdul](https://www.twitter.com/Sahhyddahabdul)
